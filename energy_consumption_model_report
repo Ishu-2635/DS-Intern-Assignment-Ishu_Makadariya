@@ -24,11 +24,11 @@ Feature Engineering
 Model Evaluation
 
 Model                           | R² Score | RMSE   | MAE
--------------------------------|----------|--------|------
-XGBoost                        | 0.9878   | 16.36  | 6.33
-Random Forest (no random vars) | 0.9805   | 20.71  | 6.83
-Random Forest (with random vars) | 0.9796 | 21.17  | 6.97
-Linear Regression              | 1.0000   | 3.12    | 2.21
+------------------------------- |----------|--------|------
+XGBoost                         | 0.9775   | 21.78  | 6.77
+Random Forest (no random vars)  | 0.9727   | 24.04  | 6.90
+Random Forest (with random vars)| 0.9725   | 24.06  | 6.98
+Linear Regression               | 1.0000   | 3.12   | 2.27
 
 Note: Linear Regression is likely overfitting 
 
